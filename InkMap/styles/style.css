@@ -1,3 +1,7 @@
+/* * {
+    outline: solid 1px black;
+} */
+
 @font-face {
     font-family: "Graffonti";
     src: url("../fonts/Graffonti.ttf");
@@ -11,16 +15,16 @@ html {
 
 .tituloPrincipal {
     font-family: "Graffonti";
-    font-size: clamp(1vw, 3vw, 5vw);  
+    font-size: clamp(30px, 3vw, 5vw);  
     position: relative;
     text-shadow: 0.25vw 0.25vw 0.25vw black;
     margin-left: 12vw;
+    width: 100vw;
+    top: 1vw;
 }
 
 .containerHeader {
     position: relative;
-    /* top: 0.1vw; */
-    /* outline: 1px solid white; */
     width: 100vw;
     height: 14vh;
     background-color: #4e0000;
@@ -32,7 +36,52 @@ html {
 .logo {
     position: relative;
     left: 10vw;
-    width: 4vw;
+    width: 20vw;
     height: 4vw;
     border: 1px solid black;
+}
+.menu {
+    position: relative;
+    display: flex;
+    width: 90vw;
+}
+
+.nav {
+    position: relative;
+    margin: auto;
+    width: 65vw;
+    left: 3vw;
+}
+
+ul, ol {
+    list-style: none;
+}
+
+.nav li a {
+    background-color: #4e0000;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 15px;
+    display: block;
+    font-size: clamp(16px, 1.25vw, 3vw);
+}
+
+.nav li a:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+.nav li ul {
+    display: none;
+    position: absolute;
+    min-width: 140px;
+}
+
+.nav li:hover > ul {
+    display: block;
+}
+
+.inicio, .localidad, .experiencia, .estilo {
+    float: left;
+    margin-right: 5vw;
 }
