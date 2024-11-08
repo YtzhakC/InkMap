@@ -1,0 +1,38 @@
+@font-face {
+    font-family: "Graffonti";
+    src: url("../fonts/Graffonti.ttf");
+}
+
+html {
+    background-color: white;
+    margin: 0;
+    padding: 0;
+}
+
+.tituloPrincipal {
+    font-family: "Graffonti";
+    font-size: clamp(1vw, 3vw, 5vw);  
+    position: relative;
+    text-shadow: 0.25vw 0.25vw 0.25vw black;
+    margin-left: 12vw;
+}
+
+.containerHeader {
+    position: relative;
+    /* top: 0.1vw; */
+    /* outline: 1px solid white; */
+    width: 100vw;
+    height: 14vh;
+    background-color: #4e0000;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.logo {
+    position: relative;
+    left: 10vw;
+    width: 4vw;
+    height: 4vw;
+    border: 1px solid black;
+}
