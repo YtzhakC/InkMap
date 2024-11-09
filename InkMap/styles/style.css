@@ -17,6 +17,7 @@
     
 body {
     height:200vh;
+    background-image: url("../img/fondos/fondo-inicial.jpg");
 }
 
 .tituloPrincipal {
@@ -114,8 +115,8 @@ aside {
     /* top: 22.5vh; */
     width: 10vw;
     height: 55vh;
-    outline: 3px solid black;
-    color: black;
+    outline: 3px solid white;
+    color: white;
     justify-content: center;
     align-items: center;
     margin-left: 3vw;  
