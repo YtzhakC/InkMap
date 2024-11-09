@@ -11,13 +11,15 @@
         background-color: white;
         margin: 0;
         padding: 0;
-        height: 100vh;
         width: 100vw;
     }
     
-body {
-    height:200vh;
-    background-image: url("../img/fondos/fondo-inicial.jpg");
+    body {
+        height: 200vh;
+        background-image: url("../img/fondos/fondo-inicial.jpg");
+        background-position: center center;
+
+        background-attachment: fixed;
 }
 
 .tituloPrincipal {
