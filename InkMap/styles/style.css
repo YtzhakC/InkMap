@@ -153,10 +153,41 @@ footer {
 
 .mainContainer {
     display: flex;
-
+    justify-content: center;
 }
 
 .card {
     margin-left: 2vw;
-    width: 30%;
+    width: 85%;
+}
+
+.nombreTatuador {
+    position: relative;
+    bottom: 3vw;
+    text-align: center;
+    color: white;
+}
+
+.subtitle {
+    line-height: 25px;
+}
+
+#tatuadorImg {
+    position: relative;
+    display: flex;
+    width: 12vw;
+    margin-left: 1vw;
+}
+
+#tatuador2Img {
+    position: relative;
+    display: flex;
+    width: 12vw;
+    margin-left: 1vw;
+}
+
+#JPT {
+    position: relative;
+    width: 12vw;
+    top: 5vw; 
 }
