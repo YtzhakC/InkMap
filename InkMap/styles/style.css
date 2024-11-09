@@ -140,3 +140,10 @@ footer {
     height: 18vh;
     top: 85vh;
 }
+
+.estiloPopular {
+    position: relative;
+    top: 1vw;
+    text-align: center;
+    color: black;
+}
