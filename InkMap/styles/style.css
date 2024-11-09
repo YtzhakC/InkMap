@@ -131,7 +131,7 @@ article {
     height: 55vh;
     /* top: 5vw; */
     left: 13vw;
-    background-color: lightgray;
+    background-color: transparent;
     margin-left: 3vw;  
 }
 
@@ -149,4 +149,14 @@ footer {
     top: 1vw;
     text-align: center;
     color: black;
+}
+
+.mainContainer {
+    display: flex;
+
+}
+
+.card {
+    margin-left: 2vw;
+    width: 30%;
 }
