@@ -193,6 +193,20 @@ footer {
     margin-left: 1vw;
 }
 
+#tatuador4Img {
+    position: relative;
+    display: flex;
+    width: 12vw;
+    margin-left: 1vw;
+}
+
+#tatuador5Img {
+    position: relative;
+    display: flex;
+    width: 12vw;
+    margin-left: 1vw;
+}
+
 #JPT {
     position: relative;
     width: 12vw;
