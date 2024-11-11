@@ -206,3 +206,10 @@ footer {
 .Bga {
     width: 30%;
 }
+
+
+@media (man-width: 768px){
+    menu {
+        display: none;
+    }
+}
