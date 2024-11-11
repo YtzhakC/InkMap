@@ -154,6 +154,11 @@ footer {
 .mainContainer {
     display: flex;
     justify-content: center;
+    height: 50vh;
+}
+
+.estiloPopular {
+    color: white;
 }
 
 .card {
