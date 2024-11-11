@@ -16,7 +16,10 @@
         margin: 0;
         padding: 0;
         width: 100vw;
-        background-image: url(/InkMap/img/fondos/fondo-inicial.jpg);
+        background-image: url(/InkMap//img/fondos/estilos/oriental/fondo1.jpg);
+        background-size: cover; /* Hace que la imagen cubra toda el área sin distorsionarse */
+        background-position: center; /* Centra la imagen en la página */
+        background-repeat: no-repeat; /* Evita que la imagen se repita */
     }
     
 body {
@@ -168,10 +171,13 @@ footer {
     flex-direction: column;
 
 }
+
+
 .cards {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+
 }
 
 .card {
@@ -179,6 +185,22 @@ footer {
     width: 30%;
     top: -1.5vw;
 }
+
+.card:hover {
+    transform: translateY(-5px); /* Eleva la tarjeta ligeramente */
+    box-shadow: 0 20px 30px rgb(255, 252, 79); /* Sombra más fuerte al pasar el cursor */
+  }
+
+/* Estilo de la imagen */
+.card-image img {
+    object-fit: cover; /* La imagen se ajusta para llenar el contenedor sin distorsionarse */
+  }
+
+/* Estilo del contenido de la tarjeta */
+.card-content {
+    padding: 15px;  /* Espaciado interno */
+    font-family: 'Arial', sans-serif; /* Tipografía personalizada */
+  }
 
 .Bga {
     width: 30%;
