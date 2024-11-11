@@ -15,7 +15,7 @@ html {
 }
 
 body {
-    height: 200vh;
+    height: auto;
     background-image: url(/InkMap/img/fondos/fondo-inicial.jpg);
     background-position: center center;
     background-attachment: fixed;
