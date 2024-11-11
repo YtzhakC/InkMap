@@ -22,6 +22,8 @@
         background-repeat: no-repeat; /* Evita que la imagen se repita */
     }
     
+
+
 body {
     height: 160vh;
 }
@@ -202,8 +204,44 @@ footer {
 }
 
 
-@media (min-width: 768px){
-        menu {
+/*-----------------------------------------------------media 768-------------------------------------------------*/
+
+@media (max-width: 768px){
+        .menu {
             display: none;
         }
+
+
+       
+.tituloPrincipal {
+    font-size: clamp(30px, 10vw, 12vw);
+}
+
+.logo {
+    height: 12vw;
+    left: 8vw;
+}
+
+aside {
+    width: 91vw;
+    height: 22vh;
+    top: 59.5vh;
+    z-index: 999;
+}
+
+.cards {
+    flex-direction: column;
+}
+
+.card {
+    width: 85%;
+    left: -0vw;
+}
+
+.Bga {
+    right: 8vw;
+    position: relative;
+    width: 40vw;
+}
+
 }
