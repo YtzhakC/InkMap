@@ -16,7 +16,7 @@
     }
     
     body {
-        height: 140vh;
+        height: 160vh;
     }
 
 .tituloPrincipal {
@@ -249,6 +249,7 @@ footer {
     margin-left: 5vw;
     border: 2px solid black;
     width: 20vw;
+    bottom: 1vw;
     border-radius:30px;
     background: black;
     box-shadow: 30px 30px 30px -10px rgba(0, 0, 0, .5), inset 15px 15px 3px rgba(255, 255, 255, .1), -4px -4px 15px rgba(255, 255, 255, .1), inset -2px -2px 12px rgba(0, 0, 0, .75);    
