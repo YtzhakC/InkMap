@@ -147,12 +147,6 @@ footer {
     height: 18vh;
 }
 
-.estiloPopular {
-    position: relative;
-    top: 1vw;
-    text-align: center;
-    color: black;
-}
 
 .Bga{
     font-family: "Docallisme";
@@ -160,7 +154,7 @@ footer {
     position: relative;
     margin-left: 30vw;
     width: 100vw;
-    top: -2vw;
+    top: -3vw;
     color: white;
 }
 .mainContainer {
@@ -172,6 +166,8 @@ footer {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    cursor: pointer;
+
 }
 
 .card {
@@ -179,6 +175,22 @@ footer {
     width: 30%;
     top: -1.5vw;
 }
+
+.card:hover {
+    transform: translateY(-1.3vw); /* Eleva la tarjeta ligeramente */
+    box-shadow: 0 20px 30px rgb(165, 165, 165); /* Sombra más fuerte al pasar el cursor */
+  }
+
+/* Estilo de la imagen */
+.card-image img {
+    object-fit: cover; /* La imagen se ajusta para llenar el contenedor sin distorsionarse */
+  }
+
+/* Estilo del contenido de la tarjeta */
+.card-content {
+    padding: 15px;  /* Espaciado interno */
+    font-family: 'Arial', sans-serif; /* Tipografía personalizada */
+  }
 
 .Bga {
     width: 30%;
