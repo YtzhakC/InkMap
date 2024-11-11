@@ -12,13 +12,11 @@
         margin: 0;
         padding: 0;
         width: 100vw;
+        background-image: url(/InkMap/img/fondos/fondo-inicial.jpg);
     }
     
     body {
         height: auto;
-        background-image: url(/InkMap/img/fondos/fondo-inicial.jpg);
-        background-position: center center;
-        background-attachment: fixed;
     }
 
 .tituloPrincipal {
@@ -141,7 +139,6 @@ footer {
     align-items: flex-end;
     background-color: #4e0000;
     width: 100vw;
-
     height: 18vh;
 }
 
