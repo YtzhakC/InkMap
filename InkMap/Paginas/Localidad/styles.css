@@ -1,6 +1,6 @@
-/* * {
+* {
     outline: solid 1px black;
-    } */
+    }
     
     @font-face {
         font-family: "Graffonti";
@@ -177,4 +177,8 @@ footer {
     margin-left: 2vw;
     width: 30%;
     top: -1.5vw;
+}
+
+.Bga {
+    width: 30%;
 }
