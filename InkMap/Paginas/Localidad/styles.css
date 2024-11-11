@@ -4,7 +4,7 @@
     
     @font-face {
         font-family: "Graffonti";
-        src: url("/InkMap/fonts/Graffonti.tt");
+        src: url(/InkMap/fonts/Graffonti.ttf);
     }
     @font-face{
         font-family: "Docallisme";
@@ -21,7 +21,7 @@
     
 body {
     height:200vh;
-    background-image: url("/InkMap/img/fondos/fondo-inicial.jpg");
+    background-image: url(/InkMap/img/fondos/fondo-inicial.jpg);
 }
 
 .tituloPrincipal {
@@ -140,10 +140,12 @@ article {
 footer {
     position: fixed;
     display: flex;
+    flex-direction: column;
+    align-items: flex-end;
     background-color: #4e0000;
     width: 100vw;
+    bottom: -2vw;
     height: 18vh;
-    top: 85vh;
 }
 
 .estiloPopular {

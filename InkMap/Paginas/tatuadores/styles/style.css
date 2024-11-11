@@ -4,7 +4,7 @@
     
     @font-face {
         font-family: "Graffonti";
-        src: url("../fonts/Graffonti.ttf");
+        src: url(/InkMap/fonts/Graffonti.ttf);
     }
     
     html {
@@ -16,11 +16,10 @@
     
     body {
         height: 200vh;
-        background-image: url("../img/fondos/fondo-inicial.jpg");
+        background-image: url(/InkMap/img/fondos/fondo-inicial.jpg);
         background-position: center center;
-
         background-attachment: fixed;
-}
+    }
 
 .tituloPrincipal {
     font-family: "Graffonti";
@@ -138,10 +137,12 @@ article {
 footer {
     position: fixed;
     display: flex;
+    flex-direction: column;
+    align-items: flex-end;
     background-color: #4e0000;
     width: 100vw;
+    bottom: -2vw;
     height: 18vh;
-    top: 85vh;
 }
 
 .estiloPopular {
