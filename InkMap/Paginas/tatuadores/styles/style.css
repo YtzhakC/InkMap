@@ -236,7 +236,7 @@ footer {
 }
 .Resena h1{
     position: relative;
-    left: 4vw;
+    left: 2vw;
     font-size: 2vw;
 
 }
@@ -283,3 +283,59 @@ footer {
 .calificacion input:checked::before {
     color: gold;
 }
+
+.comentarios{
+    padding: 2vw;
+}
+.comentarios h1{
+    font-size: clamp(30px, 3vw, 2vw);;
+}
+.comentarios p{
+    font-size: clamp(18px, 3vw, 0.8vw);;
+}
+.cajaComentarios{
+    margin-left: 2vw;
+}
+
+.buttom{
+    background-color: #3d3d3d;
+    color: white;
+    font-size: 1.1rem;
+    padding: 0.625vw 1.042vw;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    user-select: none;
+    width: 40vw;
+    margin-bottom: 5vw;
+  }
+  .buttom:hover {
+    background-color: #5c1414;
+  }
+
+  .buttom:active {
+    background-color: #8d3c39;
+    transform: scale(0.98); /* Efecto de presionar el botón */
+  }
+  #mensaje{
+    border-radius: 0.5vw;
+  }
+  textarea {
+    width: 66vw;
+    padding: 1vw;
+    margin: 0 auto;
+    border-radius: 1vw;
+    border: 1px solid #ddd;
+    font-size: 1rem;
+    color: #dddddd;
+    background-color: #000000;
+    resize: vertical;
+    transition: border-color 0.3s;
+  }
+  textarea:focus {
+    border-color: black; 
+    outline: none;
+    background-color: #a3a3a3;
+    color: #000;
+  }
