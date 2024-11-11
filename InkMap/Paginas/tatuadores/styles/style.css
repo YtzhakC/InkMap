@@ -45,12 +45,11 @@
     align-items: center;
 }
 
-.logo {
+#logotipo {
     position: relative;
     left: 10vw;
-    width: 20vw;
-    height: 4vw;
-    border: 1px solid black;
+    width: 40vw;
+    height: 5vw;
 }
 .menu {
     position: relative;
