@@ -2,23 +2,25 @@
     outline: solid 1px black;
     } */
     
-@font-face {
-    font-family: "Graffonti";
-    src: url(/InkMap/fonts/Graffonti.ttf);
-}
-@font-face{
-    font-family: "Docallisme";
-    src: url(/InkMap/fonts/Localidad/DOCALLISME\ ON\ STREET.ttf);
-}
-
-html {
-    margin: 0;
-    padding: 0;
-    width: 100vw;
-}
+    @font-face {
+        font-family: "Graffonti";
+        src: url(/InkMap/fonts/Graffonti.ttf);
+    }
+    @font-face{
+        font-family: "Docallisme";
+        src: url(/InkMap/fonts/Localidad/DOCALLISME\ ON\ STREET.ttf);
+    }
+    
+    html {
+        background-color: white;
+        margin: 0;
+        padding: 0;
+        height: 100vh;
+        width: 100vw;
+    }
     
 body {
-    height: auto;
+    height:200vh;
     background-image: url(/InkMap/img/fondos/fondo-inicial.jpg);
 }
 
@@ -141,7 +143,8 @@ footer {
     flex-direction: column;
     align-items: flex-end;
     background-color: #4e0000;
-    width: 100vw;;
+    width: 100vw;
+    bottom: -2vw;
     height: 18vh;
 }
 
@@ -176,4 +179,8 @@ footer {
     margin-left: 2vw;
     width: 30%;
     top: -1.5vw;
+}
+
+.Bga {
+    width: 30%;
 }
