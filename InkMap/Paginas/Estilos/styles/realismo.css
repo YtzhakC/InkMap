@@ -20,6 +20,7 @@
         background-size: cover; /* Hace que la imagen cubra toda el área sin distorsionarse */
         background-position: center; /* Centra la imagen en la página */
         background-repeat: no-repeat; /* Evita que la imagen se repita */
+        background-attachment: fixed;
     }
     
 body {
@@ -203,8 +204,46 @@ footer {
 }
 
 
-@media (man-width: 768px){
-    menu {
+/*-----------------------------------------------------media 768-------------------------------------------------*/
+
+@media (max-width: 768px){
+    .menu {
         display: none;
     }
+
+html {	
+height: 410vh;
+}
+   
+.tituloPrincipal {
+font-size: clamp(30px, 10vw, 12vw);
+}
+
+.logo {
+height: 12vw;
+left: 8vw;
+}
+
+aside {
+width: 91vw;
+height: 22vh;
+top: 59.5vh;
+z-index: 999;
+}
+
+.cards {
+flex-direction: column;
+}
+
+.card {
+width: 85%;
+left: -0vw;
+}
+
+.Bga {
+right: 8vw;
+position: relative;
+width: 40vw;
+}
+
 }
