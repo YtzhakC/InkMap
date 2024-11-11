@@ -229,3 +229,56 @@ footer {
     width: 12vw;
     top: 5vw; 
 }
+
+.Resena{
+    display: flex;
+
+}
+.Resena h1{
+    position: relative;
+    left: 4vw;
+    font-size: 2vw;
+
+}
+.calificacion{
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    padding: 1.563vw 2.083vw;
+    margin-left: 5vw;
+    border: 2px solid black;
+    width: 20vw;
+    border-radius:30px;
+    background: black;
+    box-shadow: 30px 30px 30px -10px rgba(0, 0, 0, .5), inset 15px 15px 3px rgba(255, 255, 255, .1), -4px -4px 15px rgba(255, 255, 255, .1), inset -2px -2px 12px rgba(0, 0, 0, .75);    
+}
+
+.calificacion input {
+    position: relative;
+    width: 2vw;
+    height: 2vw;
+    margin-left: 1vw;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    cursor: pointer;
+    appearance: none;
+    -webkit-appearance: none;
+
+}
+.calificacion input::before {
+    content: "\f005";
+    position: relative;
+    font-family: fontAwesome;
+    font-size: 2vw;
+    color: white;
+    transition: .5s;
+}
+
+.calificacion input:hover ~ input::before,
+.calificacion input:hover::before,
+.calificacion input:checked ~ input::before,
+.calificacion input:checked::before {
+    color: gold;
+}
