@@ -16,7 +16,7 @@
     }
     
     body {
-        height: auto;
+        height: 140vh;
     }
 
 .tituloPrincipal {
@@ -139,6 +139,7 @@ footer {
     align-items: flex-end;
     background-color: #4e0000;
     width: 100vw;
+    bottom: -3vw;
     height: 18vh;
 }
 
