@@ -207,6 +207,21 @@ footer {
     width: 30%;
 }
 
+.contact {
+    display: flex;
+    justify-content: flex-start;
+    position: relative;
+    right: 2vw;
+    font-size: clamp(30px, 3vw, 2vw);
+    width: 98vw;
+    margin-top: 1vw;
+  }
+
+  .contacto {
+    color: white;
+    margin-left: 4vw;
+  }
+
 /*-----------------------------------------------------media 768-------------------------------------------------*/
 
 @media (max-width: 768px){

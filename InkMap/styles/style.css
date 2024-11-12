@@ -1,6 +1,8 @@
 /* * {
     outline: solid 1px black;
     } */
+
+
     
 @font-face {
     font-family: "Graffonti";
@@ -16,8 +18,7 @@ html {
 }
 
 body {
-    height: 100vh;
-
+    height: 260vh;
 }
 
 .tituloPrincipal {
@@ -153,9 +154,7 @@ footer {
 }
 
 .mainContainer {
-    display: flex;
-    justify-content: center;
-    height: 50vh;
+    height: auto;
 }
 
 .estiloPopular {
@@ -164,6 +163,7 @@ footer {
 
 .card {
     position: relative;
+    left: 2vw;
     bottom: 4vw;
     margin-left: 2vw;
     width: 90%;
@@ -177,7 +177,12 @@ footer {
 }
 
 .subtitle {
-    line-height: 25px;
+    margin-right: 5vw;
+    margin-left: 5vw;
+}
+
+#desc {
+    
 }
 
 #img1 {
@@ -237,12 +242,167 @@ footer {
     top: 5vw; 
 }
 
-/*-----------------------------------------------------media 768-------------------------------------------------*/
+#cardP {
+    width: 95%;
+}
+.estiloMasPopular {
+    display: flex;
+    position: relative;
+    font-size: 6vw;
+    top: 2vw;
+    justify-content: center;
+    font-family: "Graffonti";
+    text-shadow: 0.25vw 0.25vw 0.25vw black;
+}
+
+.cards {
+    display: inline-block;
+    top: 0;
+    width: 27%;
+}
+
+.tatuadoresDestacados {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    bottom: 2vw;
+}
+
+.Resena{
+    display: flex;
+
+}
+.Resena h1{
+    position: relative;
+    left: 4vw;
+    font-size: 2vw;
+
+}
+.calificacion{
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    padding: 1.563vw 2.083vw;
+    margin-left: 5vw;
+    border: 2px solid black;
+    width: 20vw;
+    bottom: 1vw;
+    border-radius:30px;
+    background: black;
+    box-shadow: 30px 30px 30px -10px rgba(0, 0, 0, .5), inset 15px 15px 3px rgba(255, 255, 255, .1), -4px -4px 15px rgba(255, 255, 255, .1), inset -2px -2px 12px rgba(0, 0, 0, .75);    
+}
+
+.calificacion input {
+    position: relative;
+    width: 2vw;
+    height: 2vw;
+    margin-left: 1vw;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    cursor: pointer;
+    appearance: none;
+    -webkit-appearance: none;
+
+}
+.calificacion input::before {
+    content: "\f005";
+    position: relative;
+    font-family: fontAwesome;
+    font-size: 2vw;
+    color: white;
+    transition: .5s;
+}
+
+.calificacion input:hover ~ input::before,
+.calificacion input:hover::before,
+.calificacion input:checked ~ input::before,
+.calificacion input:checked::before {
+    color: gold;
+}
+
+.comentarios{
+    padding: 2vw;
+}
+.comentarios h1{
+    font-size: clamp(30px, 3vw, 2vw);;
+}
+.comentarios p{
+    font-size: clamp(18px, 3vw, 0.8vw);;
+}
+.cajaComentarios{
+    margin-left: 2vw;
+}
+
+.buttom{
+    background-color: #3d3d3d;
+    color: white;
+    font-size: 1.1rem;
+    padding: 0.625vw 1.042vw;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    user-select: none;
+    width: 40vw;
+    margin-bottom: 5vw;
+  }
+  .buttom:hover {
+    background-color: #5c1414;
+  }
+
+  .buttom:active {
+    background-color: #8d3c39;
+    transform: scale(0.98); /* Efecto de presionar el botón */
+  }
+  #mensaje{
+    border-radius: 0.5vw;
+  }
+  textarea {
+    width: 66vw;
+    padding: 1vw;
+    margin: 0 auto;
+    border-radius: 1vw;
+    border: 1px solid #ddd;
+    font-size: 1rem;
+    color: #dddddd;
+    background-color: #000000;
+    resize: vertical;
+    transition: border-color 0.3s;
+  }
+  textarea:focus {
+    border-color: black; 
+    outline: none;
+    background-color: #a3a3a3;
+    color: #000;
+  }
+
+  #card1:hover, #card2:hover, #card3:hover {
+    transform: translateY(-1.3vw); /* Eleva la tarjeta ligeramente */
+    box-shadow: 0 20px 30px rgb(165, 165, 165); /* Sombra más fuerte al pasar el cursor */
+  }
+
+  .contact {
+    display: flex;
+    justify-content: flex-start;
+    position: relative;
+    right: 2vw;
+    font-size: clamp(30px, 3vw, 2vw);
+    width: 98vw;
+    margin-top: 1vw;
+  }
+
+  .contacto {
+    color: white;
+  }
+
+/*----------------------------------------------------- media 768 -------------------------------------------------*/
 
 @media (max-width: 768px){
 
     html {	
-    height: 410vh;
+    height: 500vh;
     }
        
     .tituloPrincipal {
@@ -261,14 +421,26 @@ footer {
     top: 59.5vh;
     z-index: 10;
     }
-    
-    .cards {
-    flex-direction: column;
-    }
-    
+
     .card {
     width: 85%;
     left: -0vw;
+    }
+
+    .cards {
+        width: 96%;
+    }
+
+    
+    
+    article {
+        position: relative;
+        width: 95vw;
+        height: 55vh;
+        /* top: 5vw; */
+        left: 1vw;
+        background-color: transparent;
+        margin-left: 3vw;  
     }
     
     .Bga {
@@ -276,6 +448,7 @@ footer {
     position: relative;
     width: 40vw;
     }
+
     .menu {
         display: block;
         width: 100%;
