@@ -4,21 +4,21 @@
     
     @font-face {
         font-family: "Graffonti";
-        src: url(/InkMap/fonts/Graffonti.ttf);
+        src: url(../../fonts/Graffonti.ttf);
     }
     @font-face{
         font-family: "Docallisme";
-        src: url(/InkMap/fonts/Localidad/DOCALLISME\ ON\ STREET.ttf);
+        src: url(../../fonts/Localidad/DOCALLISME\ ON\ STREET.ttf);
     }
-    
+
     html {
         background-color: white;
         margin: 0;
         padding: 0;
         width: 100vw;
-        background-image: url(/InkMap/img/fondos/fondo-inicial.jpg);
+        background-image: url(../../img/fondos/fondo-inicial.jpg);
     }
-    
+
 body {
     height:160vh;
 }

@@ -6,7 +6,7 @@
     
 @font-face {
     font-family: "Graffonti";
-    src: url(/fonts/Graffonti.ttf);
+    src: url(../fonts/Graffonti.ttf);
 }
 
 html {
@@ -14,7 +14,7 @@ html {
     margin: 0;
     padding: 0;
     width: 100vw;
-    background-image: url(/img/fondos/fondo-inicial.jpg);
+    background-image: url(../img/fondos/fondo-inicial.jpg);
 }
 
 body {
