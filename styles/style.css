@@ -6,7 +6,7 @@
     
 @font-face {
     font-family: "Graffonti";
-    src: url(/InkMap/fonts/Graffonti.ttf);
+    src: url(/fonts/Graffonti.ttf);
 }
 
 html {
@@ -14,7 +14,7 @@ html {
     margin: 0;
     padding: 0;
     width: 100vw;
-    background-image: url(/InkMap/img/fondos/fondo-inicial.jpg);
+    background-image: url(/img/fondos/fondo-inicial.jpg);
 }
 
 body {
@@ -179,10 +179,6 @@ footer {
 .subtitle {
     margin-right: 5vw;
     margin-left: 5vw;
-}
-
-#desc {
-    
 }
 
 #img1 {
